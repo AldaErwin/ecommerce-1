@@ -1,0 +1,32 @@
+.countContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #999;
+    box-shadow: 2px 3px 10px #ddd;
+    padding: 5px;
+}
+.countContainer i {
+    font-size: 20px;
+    cursor: pointer;
+}
+.countContainer .fa-plus:active {
+    color: #0a0;
+}
+.countContainer .fa-minus:active {
+    color: #f00;
+}
+.agregarCarrito {
+    margin-top: 7px;
+    border: 2px solid #666;
+    cursor: pointer;
+}
+.agregarCarrito p {
+    text-align: center;
+    font-weight: 550;
+    padding: 7px 3px;
+}
+.agregarCarrito:hover {
+    background-color: #43f;
+    color: #fff;
+}
