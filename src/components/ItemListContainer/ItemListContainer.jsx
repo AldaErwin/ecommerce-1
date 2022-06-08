@@ -38,13 +38,3 @@ const ItemListContainer = () => {
 }
 
 export default ItemListContainer
-
-
-
-// <div className='cardInfo'>
-//                 <p>{producto.title}</p>
-//                 <div className='logo'>
-//                     <img src={producto.pictureUrl} />
-//                 </div>
-//                 <p>{producto.price}</p>
-//             </div>

@@ -9,16 +9,16 @@ const Navbar = ({children}) => {
           </div>
           <ul className='ul'>
               <li>
-                  <a href="#">Option</a>
+                  <a href="#">Productos</a>
               </li>
               <li>
-                  <a href="#">Option</a>
+                  <a href="#">Como llegar</a>
               </li>
               <li>
-                  <a href="#">Option</a>
+                  <a href="#">Nosotros</a>
               </li>
               <li>
-                  <a href="#">Option</a>
+                  <a href="#">Sponsors</a>
               </li>
           </ul>
       </nav>

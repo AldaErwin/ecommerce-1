@@ -11,9 +11,9 @@ const ItemCount = ({productos}) => {
     return (
         <>
             <div className="countContainer">
-                <i className="fa-solid fa-plus" onClick={addItem}></i>
+                <button className="fa-solid fa-plus" onClick={addItem}></button>
                 <h3>{count}</h3>
-                <i className="fa-solid fa-minus"  onClick={removeItem}></i>
+                <button className="fa-solid fa-minus"  onClick={removeItem}></button>
             </div>
             <div className="agregarCarrito">
                 <p>Agregar a carrito</p>
